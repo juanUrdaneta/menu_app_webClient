@@ -9,7 +9,7 @@ const About: NextPage = () => {
             </Head>
             <h1>Well, hello there</h1>
         </>
-    )
-}
+    );
+};
 
 export default About;

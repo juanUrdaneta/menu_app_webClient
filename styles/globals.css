@@ -1,14 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Gantari';
+  font-weight: 100;
   src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
 }
+@font-face {
+  font-family: 'Gantari';
+  font-weight: 300;
+  src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Gantari';
+  font-weight: 400;
+  src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Gantari';
+  font-weight: 500;
+  src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Gantari';
+  font-weight: 600;
+  src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Gantari';
+  font-weight: 700;
+  src: url('../public/fonts/Gantari-VariableFont_wght.ttf');
+}
+
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-  font-family: 'Gantari';
 }
 
 a {
