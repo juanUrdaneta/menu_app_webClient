@@ -1,15 +1,15 @@
 module.exports = {
     content: [
         "./pages/**/*.{js,ts,jsx,tsx}",
-        "./components/**/*.{js,ts,jsx,tsx}",
+        "./src/components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
         fontFamily: {
             sans: ["Gantari", "sans-serif"],
         },
-        colors: {
-            black: "#303030",
-        },
+        // colors: {
+        //     black: "#303030",
+        // },
         spacing: {
             1: ".8rem",
             2: "1.6rem",
@@ -20,18 +20,6 @@ module.exports = {
             7: "5.6rem",
             8: "6.4rem",
             9: "7.2rem",
-        },
-        fontSize: {
-            sm: "1.6rem",
-            md: "2.4rem",
-            lg: "3.2rem",
-            xl: "4rem",
-            title: [
-                "8rem",
-                {
-                    letterSpacing: "0.1rem",
-                },
-            ],
         },
         fontWeight: {
             thin: 100,
